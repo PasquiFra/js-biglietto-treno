@@ -17,8 +17,8 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 1. Stabilire le variabili e richiedere informazioni all'utente di km da percorrere ed età.
 
-2. 
+2. definisco il prezzo intero del biglietto con apposita formula
 
-3. 
-
-4. 
+3. Applico sconto in base alle fasce d'età stabilite
+    
+ 
