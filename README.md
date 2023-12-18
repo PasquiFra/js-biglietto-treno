@@ -15,7 +15,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 **Esecuzione**
 
-1. 
+1. Stabilire le variabili e richiedere informazioni all'utente di km da percorrere ed età.
 
 2. 
 
