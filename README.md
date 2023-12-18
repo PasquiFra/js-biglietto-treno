@@ -21,4 +21,4 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 3. Applico sconto in base alle fasce d'età stabilite
     
- 
+4. Riformulazione esercizio con processo di validazione e variante metodo
