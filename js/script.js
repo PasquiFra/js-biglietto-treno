@@ -6,3 +6,11 @@ const percorrenzaKm = parseInt(prompt("Quanti chilometri hai intenzione di perco
 const etaPasseggero = parseInt(prompt("Qual è la sua età?", 32));
 
 console.log("percorrenza Km ", percorrenzaKm, "età passeggero ", etaPasseggero);
+
+// Step 2: creo formula per calcolare prezzo intero del biglietto
+
+const tariffaKm = 0.21
+const prezzoBase = percorrenzaKm * tariffaKm
+
+console.log("Tariffa base ", prezzoBase)
+
