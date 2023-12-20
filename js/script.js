@@ -7,6 +7,8 @@ const etaPasseggero = parseInt(prompt("Qual è la sua età?", 17));
 
 console.log("percorrenza Km ", percorrenzaKm, "età passeggero ", etaPasseggero);
 
+const result = document.getElementById("result");
+
 // Step 2: creo formula per calcolare prezzo intero del biglietto
 
 const tariffaKm = 0.21;
@@ -78,16 +80,22 @@ console.log("Tariffa base ", prezzoBase);
 
             const prezzoFinale = parseFloat (prezzoBase * scontoUnder).toFixed(2);
             console.log ("prezzo finale", prezzoFinale);
-    
+            
+            result.innerHTML = prezzoFinale;
+
         } else if (etaPasseggero >= 65) {
 
             const prezzoFinale = parseFloat (prezzoBase * scontoOver).toFixed(2);
             console.log ("prezzo finale", prezzoFinale);
 
+            result.innerHTML = prezzoFinale;
+
         } else { 
             
             const prezzoFinale = parseFloat (prezzoBase * noSconto ).toFixed(2);
             console.log ("prezzo finale", prezzoFinale);
+
+            result.innerHTML = prezzoFinale;
 
         }
     }
